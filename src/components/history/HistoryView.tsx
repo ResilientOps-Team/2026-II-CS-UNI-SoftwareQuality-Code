@@ -2,10 +2,8 @@
 
 import React, { useState } from 'react'
 import {
-  History,
   Search,
   ArrowRight,
-  RotateCcw,
   CheckCircle2,
   Calendar,
   Layers,
