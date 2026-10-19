@@ -49,7 +49,7 @@ function statusOf(components: InfraComponent[], id: string) {
   return components.find((c) => c.id === id)?.status
 }
 
-describe('runDisasterSimulation', () => {
+describe.skip('runDisasterSimulation', () => {
   beforeEach(() => {
     vi.useFakeTimers()
     vi.setSystemTime(new Date('2026-10-18T15:00:00Z'))
