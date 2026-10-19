@@ -123,7 +123,7 @@ export function runDisasterSimulation(
       maxRpoHours = Math.max(maxRpoHours, accessibleBackup.rpoHours)
 
       // Pérdida estimada: horas de RPO x ~2.5 GB de transacciones por hora
-      const estimatedLoss = Math.round(accessibleBackup.rpoHours * 2.5)
+      const estimatedLoss = Math.round(accessibleBackup.rpoHours * 3)
       totalDataLossGb += estimatedLoss
 
       recoveryDetails.push({
