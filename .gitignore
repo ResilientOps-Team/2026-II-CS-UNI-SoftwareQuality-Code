@@ -77,6 +77,9 @@ Testing/
 next-env.d.ts
 AGENTS.md
 
+# Cobertura de pruebas
+/coverage
+
 # Environment variables
 .env
 .env.local
